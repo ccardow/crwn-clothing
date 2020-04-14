@@ -39,3 +39,32 @@
     cursor: pointer;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .checkout-item {
+    width: 100%;
+
+    .name,
+    .quantity,
+    .price {
+      width: 22%;
+    }
+
+    .name {
+      margin-right: 4px;
+    }
+
+    .remove-button {
+      padding-left: 10px;
+      cursor: pointer;
+    }
+
+    .quantity {
+      display: flex;
+
+      .value {
+        margin: 0 4px;
+      }
+    }
+  }
+}

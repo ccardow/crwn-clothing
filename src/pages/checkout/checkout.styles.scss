@@ -41,3 +41,22 @@
     color: #575757;
   }
 }
+
+@media screen and (max-width: 800px) {
+  .checkout-page {
+    width: 90%;
+
+    .header-block {
+      width: 21.25px;
+
+      &:last-child {
+        width: 15% !important;
+      }
+    }
+
+    button {
+      margin-left: unset;
+      margin-top: 4px;
+    }
+  }
+}
